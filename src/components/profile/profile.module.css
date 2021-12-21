@@ -1,3 +1,38 @@
 .Profile {
     background-color: #041C32;
+    text-align: center;
+    padding: 85px 10%;
+}
+
+.Profile img {
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 1px;
+}
+
+.job {
+    color: white;
+    opacity: .7;
+    font-weight: bold;
+}
+
+@media (min-width: 994px) {
+    .Profile img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    .title {
+        color: white;
+        font-weight: bolder;
+        font-size: 50px;
+        margin: 1px;
+    }
 }

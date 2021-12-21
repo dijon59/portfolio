@@ -11,6 +11,7 @@ class Layout extends Component {
             <div>
                 <Toolbar/>
                 <Profile/>
+                {this.props.children}
             </div>
         )
     }

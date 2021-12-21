@@ -5,7 +5,8 @@ class Toolbar extends Component {
     render() {
         return (
             <div className={classes.ToolBar}>
-                ToolBar
+                <div className={classes.name}>Dijon Mboko</div>
+                <div className={classes.contact}>Contact</div>
             </div>
         )
     }
